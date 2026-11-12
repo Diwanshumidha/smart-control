@@ -1,0 +1,169 @@
+[
+ {
+  "name": "glitch",
+  "type": "block",
+  "title": "Glitch",
+  "description": "Shader transition with digital glitch artifacts",
+  "tags": [
+   "transition",
+   "shader"
+  ],
+  "dimensions": {
+   "width": 1920,
+   "height": 1080
+  },
+  "duration": 4,
+  "preview": {
+   "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/glitch.mp4",
+   "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/glitch.png"
+  }
+ },
+ {
+  "name": "light-leak",
+  "type": "block",
+  "title": "Light Leak",
+  "description": "Shader transition with cinematic light leak overlay",
+  "tags": [
+   "transition",
+   "shader"
+  ],
+  "dimensions": {
+   "width": 1920,
+   "height": 1080
+  },
+  "duration": 4,
+  "preview": {
+   "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/light-leak.mp4",
+   "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/light-leak.png"
+  }
+ },
+ {
+  "name": "whip-pan",
+  "type": "block",
+  "title": "Whip Pan",
+  "description": "Shader transition simulating a fast camera whip pan",
+  "tags": [
+   "transition",
+   "shader"
+  ],
+  "dimensions": {
+   "width": 1920,
+   "height": 1080
+  },
+  "duration": 4,
+  "preview": {
+   "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/whip-pan.mp4",
+   "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/whip-pan.png"
+  }
+ },
+ {
+  "name": "headline-slam",
+  "type": "component",
+  "title": "Headline Slam",
+  "description": "A heavyweight headline scales down into frame, lands with a deterministic three-frame shake, holds with subtle drift, and whips upward on exit.",
+  "tags": [
+   "motion-primitive",
+   "typography",
+   "headline",
+   "slam",
+   "impact",
+   "exit"
+  ]
+ },
+ {
+  "name": "iris-reveal",
+  "type": "component",
+  "title": "Iris Reveal",
+  "description": "A circle clip-path opens from an authored origin revealing state B over state A in one confident pass, then holds on B. Classic register dims and desaturates the before state so the after state lands in full color; a thin accent rim rides the iris edge. Callers fill the named before/after slot panels; token-styled defaults render when a slot is left empty.",
+  "tags": [
+   "transition",
+   "iris",
+   "circle-reveal",
+   "clip-path",
+   "bridge",
+   "slots"
+  ]
+ },
+ {
+  "name": "logo-sting",
+  "type": "component",
+  "title": "Logo Sting",
+  "description": "A wordmark slams into its final scale, fires one accent ring and one white impact frame, then holds completely still.",
+  "tags": [
+   "motion-primitive",
+   "brand",
+   "logo",
+   "sting",
+   "impact",
+   "reveal"
+  ]
+ },
+ {
+  "name": "match-cut",
+  "type": "component",
+  "title": "Match Cut",
+  "description": "A circle accelerates into a hard single-frame scene swap, matches the incoming circle exactly, and continues into a smaller resting pose.",
+  "tags": [
+   "motion-primitive",
+   "transition",
+   "match-cut",
+   "hard-cut",
+   "continuity"
+  ]
+ },
+ {
+  "name": "number-wheel",
+  "type": "component",
+  "title": "Number Wheel",
+  "description": "A rolling digit counter primitive for metrics, prices, counts, and scoreboards",
+  "tags": [
+   "video-primitive",
+   "motion-primitive",
+   "number",
+   "counter",
+   "data"
+  ],
+  "preview": {
+   "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/number-wheel.png"
+  }
+ },
+ {
+  "name": "oversized-cursor",
+  "type": "component",
+  "title": "Oversized Cursor",
+  "description": "The look-here pointer for a video: the macOS arrow at 3.5x its normal size lands its tip on one control, clicks it on, settles just below it so the result stays in view, then exits off-screen",
+  "tags": [
+   "cursor",
+   "motion-primitive",
+   "actor",
+   "pointer",
+   "interaction"
+  ]
+ },
+ {
+  "name": "push-in",
+  "type": "component",
+  "title": "Push In",
+  "description": "A centered headline gains focus through one slow, continuous camera push and a gentle fade out.",
+  "tags": [
+   "motion-primitive",
+   "camera",
+   "push-in",
+   "focus",
+   "emphasize",
+   "holdable"
+  ]
+ },
+ {
+  "name": "terminal-simulator",
+  "type": "component",
+  "title": "Terminal Simulator",
+  "description": "A terminal window types commands and streams log output.",
+  "tags": [
+   "code-animation"
+  ],
+  "preview": {
+   "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/terminal-simulator.png"
+  }
+ }
+]

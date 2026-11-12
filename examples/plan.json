@@ -1,0 +1,79 @@
+{
+  "run_id": "brag-horse-tinder-2026-11-12-120000",
+  "title": "Horse Tinder",
+  "angle": "Dating, but for horses, played completely straight: the film treats a horse finding a match with the gravity of a fintech launch. The product UI is rebuilt from the app's own components and shown one detail at a time.",
+  "tone": "deadpan",
+  "format": "landscape",
+  "palette": [
+    { "role": "background", "hex": "#0B1020", "name": "page background in globals.css" },
+    { "role": "text", "hex": "#F3F6FC", "name": "body text" },
+    { "role": "accent", "hex": "#FF4D8D", "name": "swipe-right button" },
+    { "role": "muted", "hex": "#8A93A8", "name": "secondary text" }
+  ],
+  "display_font": "Inter",
+  "body_font": "JetBrains Mono",
+  "music": "none",
+  "voice": "am_michael",
+  "scenes": [
+    {
+      "id": "hook",
+      "name": "Hook",
+      "duration": 3,
+      "script": "Swipe right on horses",
+      "visual": "Kinetic type on the brand background; the real swipe-right button arrives under the last word.",
+      "motion": "Per-word slam on the beat, then the button springs in.",
+      "templates": ["headline-slam"],
+      "transition_out": "whip-pan",
+      "narration": "Somewhere, a horse is lonely."
+    },
+    {
+      "id": "reveal",
+      "name": "Reveal",
+      "duration": 4,
+      "script": "Horse Tinder",
+      "visual": "The profile card rebuilt from ProfileCard.tsx: photo, name 'Biscuit, 7', 'Enjoys long gallops'. The rest of the deck is quiet placeholder cards behind it.",
+      "motion": "Card rises into focus, the deck settles behind it, a slow push-in on the name.",
+      "templates": [],
+      "transition_out": "match-cut",
+      "shows_product": true,
+      "narration": "Meet Biscuit. [pause 0.3] Seven, enjoys long gallops."
+    },
+    {
+      "id": "demo",
+      "name": "Demo",
+      "duration": 5,
+      "script": "",
+      "visual": "The rebuilt card again, now with the cursor: it travels to the swipe-right button, presses, and the 'It's a match' state from MatchBanner.tsx lands.",
+      "motion": "Cursor travels, press ripple, card flies right, match banner springs in on the cue.",
+      "templates": ["oversized-cursor"],
+      "transition_out": "iris-reveal",
+      "shows_product": true,
+      "narration": "One swipe, {match} and it's a match."
+    },
+    {
+      "id": "proof",
+      "name": "Proof",
+      "duration": 4,
+      "script": "12,000 neighs",
+      "visual": "The real counter component from Stats.tsx rolling up to the number in the README.",
+      "motion": "Number wheel rolls and lands, label rises after it.",
+      "templates": ["number-wheel"],
+      "transition_out": "light-leak",
+      "narration": "Twelve thousand neighs and counting."
+    },
+    {
+      "id": "endcard",
+      "name": "End card",
+      "duration": 4,
+      "script": "horsetinder.app",
+      "visual": "The real logo from brand/logo.svg strokes on, then the URL.",
+      "motion": "Logo paths draw on, settle, URL types in; hold 2 s.",
+      "templates": ["logo-sting"],
+      "transition_out": "",
+      "narration": "[pause 0.8] Horse Tinder."
+    }
+  ],
+  "brand_assets": ["brand/logo.svg"],
+  "share_copy": "Swipe right on horses. Horse Tinder is live at horsetinder.app.",
+  "avoid": ["screenshots in the video (UI is rebuilt from source)", "a title over a dimmed screenshot", "three feature cards in a row"]
+}

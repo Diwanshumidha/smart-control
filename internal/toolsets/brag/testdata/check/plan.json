@@ -1,0 +1,114 @@
+{
+  "run_id": "brag-output-2026-11-11-214423",
+  "title": "brag-bridge",
+  "angle": "A developer has a real project but wants a launch film without moving the codebase into a hosted video service. The film follows one object—the local project—from source code to ChatGPT's MCP workflow to a rendered MP4, showing brag-bridge as the local execution bridge: ChatGPT plans the creative work while the desktop binary reads files and runs Hyperframes/ffmpeg. The visual world is a crisp terminal-and-code workspace, with real command names and source excerpts from this repository; no invented dashboard or unsupported performance claims.",
+  "tone": "polished — premium developer-tool launch film; precise, confident, quietly technical",
+  "format": "landscape",
+  "palette": [
+    {
+      "role": "background",
+      "hex": "#0B1020",
+      "name": "Creative direction: deep terminal navy (no app stylesheet or brand palette in this CLI project)"
+    },
+    {
+      "role": "surface",
+      "hex": "#172238",
+      "name": "Creative direction: raised terminal/editor surface"
+    },
+    {
+      "role": "text",
+      "hex": "#F4F7FB",
+      "name": "Creative direction: high-contrast editor text"
+    },
+    {
+      "role": "muted",
+      "hex": "#AAB6C8",
+      "name": "Creative direction: secondary terminal labels"
+    },
+    {
+      "role": "accent",
+      "hex": "#65B8FF",
+      "name": "Creative direction: electric blue for the local-to-creative handoff"
+    }
+  ],
+  "display_font": "Space Mono",
+  "body_font": "Inter",
+  "music": "none",
+  "music_notes": "This brag-bridge build ships no bundled music or SFX, as confirmed by README.md and list_assets. The film will be intentionally silent; rhythm comes from performed type, cursor actions and transitions.",
+  "scenes": [
+    {
+      "id": "hook",
+      "name": "The output first",
+      "duration": 3.5,
+      "script": "A launch film. From your codebase.",
+      "visual": "Open on a real terminal/editor workspace. A rendered brag.mp4 output is visible as the payoff object, then the camera pulls back to reveal the brag-bridge repository and its Go source. Use real filenames README.md, main.go and tools.go; no fake product UI.",
+      "motion": "The output filename slams in on frame one; per-word blur reveal lands the second line. A fast camera pull-back reveals the workspace, then the MP4 rectangle becomes the carrier into the next scene.",
+      "templates": [
+        "code-terminal-run"
+      ],
+      "transition_out": "whip-pan — the MP4 output streaks horizontally and resolves as the terminal prompt in the next scene",
+      "shows_product": true
+    },
+    {
+      "id": "bridge",
+      "name": "The local bridge",
+      "duration": 4,
+      "script": "ChatGPT plans. Your machine builds.",
+      "visual": "Show the real README command `brag-bridge serve --tunnel` in a terminal, then a readable excerpt from README.md explaining that the local binary reads files, writes compositions and runs Hyperframes and ffmpeg. Highlight the actual MCP boundary, not an invented dashboard.",
+      "motion": "The command types and executes in the terminal; the camera punches into `--tunnel`, then the terminal surface expands to become a clean code-reading world. Keep the exact command and explanatory copy still once settled.",
+      "templates": [
+        "code-snippet-dark-modern"
+      ],
+      "transition_out": "iris from the command — the `serve` token becomes the aperture into the MCP tool registry",
+      "shows_product": true
+    },
+    {
+      "id": "workflow",
+      "name": "The real workflow",
+      "duration": 6,
+      "script": "Inspect. Plan. Approve. Render.",
+      "visual": "Show the actual tool registrations from tools.go, one at a time: `brag_guide`, `project_tree`, `submit_plan`, `approve_plan`, `hyperframes`, `finalize`. A focused code view proves these are real MCP tools. Pair it with the documented two-phase flow from README.md: plan is locked until approval, then local composition and render.",
+      "motion": "A cursor traces the real tool names in the source excerpt; each name resolves into a single prominent verb. A restrained camera pan follows the source lines, then a zoom-through on `approve_plan` carries into the build result. No fabricated counts or dashboard widgets.",
+      "templates": [
+        "code-diff",
+        "agent-cursor"
+      ],
+      "transition_out": "zoom through `approve_plan` — the highlighted identifier expands into the rendered composition workspace",
+      "shows_product": true
+    },
+    {
+      "id": "payoff",
+      "name": "Rendered locally",
+      "duration": 4.5,
+      "script": "Hyperframes + ffmpeg. On your desktop.",
+      "visual": "Show the documented local render path and real output artifacts from the existing brag workflow: `composition/`, `brag.mp4`, `brag.jpg`, `share-copy.txt`. These are the actual deliverables described by the README and workflow; avoid implying cloud rendering.",
+      "motion": "The composition folder assembles from the source view; the MP4 tile travels across the frame and settles centre. A brief camera push lands on `brag.mp4`, then pulls back to show the local output directory.",
+      "templates": [
+        "code-terminal-run"
+      ],
+      "transition_out": "colour flood — the deep terminal ground brightens to the end-card blue while the MP4 tile stays anchored",
+      "shows_product": true
+    },
+    {
+      "id": "endcard",
+      "name": "The handoff",
+      "duration": 3,
+      "script": "brag-bridge\nYour projects. Launch-ready.",
+      "visual": "Minimal end card built around the product name and a terminal-style CTA: `brag-bridge serve`. This is a documented CLI command, not a website URL. No logo asset exists in the project tree, so the wordmark is set in type rather than pretending an icon is the brand mark.",
+      "motion": "The wordmark assembles letter by letter, locks to centre, then the CLI command wipes on beneath it. Hold the final lockup for the full beat.",
+      "templates": [
+        "logo-brand-close",
+        "cta-lockup"
+      ],
+      "shows_product": true
+    }
+  ],
+  "share_copy": "brag-bridge connects ChatGPT to a local project so it can inspect the code, plan a launch video, and run Hyperframes + ffmpeg on your machine. ChatGPT does the creative work; your desktop does the building.",
+  "avoid": [
+    "No invented dashboard, UI, metrics or speed claims",
+    "No implication that source code or renders are uploaded to a hosted build service",
+    "No tiny floating screenshots or three-card feature slides",
+    "No typing-prompt opener, repeated fade-up entrances or docked logo",
+    "No music or SFX: this build ships no bundled audio"
+  ]
+}
